@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+  --color-Stone-100: hsl(30, 54%, 90%);
+  --color-Stone-150: hsl(30, 18%, 87%);
+  --color-Stone-600: hsl(30, 10%, 34%);
+  --color-Stone-900: hsl(24, 5%, 18%);
+
+  --color-Brown-800: hsl(14, 45%, 36%);
+
+  --color-Rose-800: hsl(332, 51%, 32%);
+  --color-Rose-50: hsl(330, 100%, 98%);
+
+  --font-Young-Serif: "Young Serif", serif;
+  --font-Outfit: "Outfit", sans-serif;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+}
+
+* {
+  @apply box-border
+}
+body {
+  @apply text-base font-Young-Serif
+}
